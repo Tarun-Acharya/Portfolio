@@ -10,19 +10,23 @@ body {
 
 /*NAVBAR*/
 .navbar {
-  background-color: #31b0d5;
+  background-color: #221e1e;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
   width: 100%; /* Full width */
   display: flex;
   justify-content: center;
+  margin-bottom: 100px;
+  
 }
 
 .navbar a {
   font-weight: 200;
   color: white;
-  padding: 14px 16px;
-  text-decoration: none;
+  padding: 14px 18px;
+  text-decoration: seashell;
+  opacity: 1.7;
+  
 }
 
 .anchor {
@@ -35,20 +39,23 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  background: #31b0d5; /*background color to blue*/
+  width:30vw;
+  background: #221e1e; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-
+  position : fixed;
   display: flex;
   flex-direction: column;
+
 }
 
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
-  font-weight: 400;
-  font-size: 2em;
+  font-weight: 300;
+  font-size: 1.2em;
   color: white;
   text-align: center;
-  padding-top: 150px;
+  padding-top: 15vw;
+  opacity: 0.8;
 }
 
 .jumbotron-text h1 {
@@ -98,10 +105,13 @@ body {
   /*sets up flexbox*/
   display: flex;
   flex-direction: column;
+  
 }
 
 .row {
   display: flex;
+  padding-left:30vw;
+  padding-top:25px;
 }
 
 .white {
@@ -114,8 +124,8 @@ body {
 
 .main-content {
   flex: 0 0 66.6%;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 1.2rem;
+  margin-bottom: 1.2rem;
 }
 
 .side-content-sm {
@@ -124,8 +134,8 @@ body {
 
 .main-content-lg {
   flex: 0 0 80%;
-  margin-top: 2rem;
-  margin-bottom: 3rem;
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .box-shadow {
@@ -153,12 +163,12 @@ h2 {
   flex-direction: column;
   background-color: white;
   border: 1px solid rgba(0,0,0,.125);
-  border-radius: .25rem;
-  margin-bottom: 30px;
+  border-radius: .2rem;
+  margin-bottom: 25px;
 }
 
 .card-header {
-  padding: .75rem 1.25rem;
+  padding: .55rem 1.25rem;
   background-color: white;
   border-bottom: 1px solid rgba(0,0,0,.075);
   border-top-left-radius: .25rem;
@@ -166,7 +176,7 @@ h2 {
 }
 
 .card-content {
-  padding: .25rem 1.25rem;
+  padding: .2rem 1.25rem;
   flex: 1 1 auto;
 }
 
