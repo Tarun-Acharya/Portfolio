@@ -17,10 +17,12 @@ body {
   display: flex;
   justify-content: center;
   margin-bottom: 100px;
+  z-index: 2;
   
 }
 
 .navbar a {
+  
   font-weight: 200;
   color: white;
   padding: 14px 18px;
@@ -39,10 +41,10 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  width:30vw;
+  width:100vw;
   background: #221e1e; /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-  position : fixed;
+  
   display: flex;
   flex-direction: column;
 
@@ -50,12 +52,14 @@ body {
 
 .jumbotron-text {
   /*TAGLINE UNDER NAME*/
+  font-family: "Lucida Console", Courier, monospace;
   font-weight: 270;
   font-size: 1em;
   color: white;
   text-align: center;
   padding-top: 3vw;
   opacity: 0.8;
+  z-index:1;
 }
 
 .jumbotron-text h1 {
@@ -110,8 +114,9 @@ body {
 
 .row {
   display: flex;
-  padding-left:30vw;
+  
   padding-top:25px;
+  padding-bottom:0;
 }
 
 .white {
@@ -294,3 +299,7 @@ h4 {
 .white-text {
   color: white;
 }
+
+
+
+
