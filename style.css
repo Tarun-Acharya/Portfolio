@@ -24,7 +24,7 @@ body {
 .navbar a {
   
   font-size: 1.3vw;
-  font-weight: 300;
+  font-weight: 400;
   color: white;
   padding: 14px 16px;
   text-decoration: seashell;
@@ -77,11 +77,13 @@ body {
   /*YOUR NAME*/
   text-transform: uppercase;
   font-weight: 800;
-  font-size: 3em;
+  font-size: 10vh;
   margin-bottom: 0;
 }
 
 .jumbotron-text p {
+  padding-top:1vh;
+  font-size:4vh;
   margin: 0;
 }
 
@@ -224,7 +226,7 @@ h4 {
  
   margin-left: auto;
   margin-right: auto;
-  width: 230px;height:230px;
+  width: 30vh;height:30vh;
   
   
 }
