@@ -179,6 +179,7 @@ h2 {
   line-height: 1.5;
   color: black;
   font-weight:300;
+  font-size:3vh;
 }
 
 /*EDUCATION*/
@@ -202,7 +203,7 @@ h2 {
 .card-content {
   padding: .2rem 1.25rem;
   flex: 1 1 auto;
-  font: weight 2;
+  font-size:3vh;
 }
 .card-content p{
   font-weight:300;
