@@ -13,21 +13,20 @@ body {
   background-color: #221e1e;
   position: fixed; /* Set the navbar to fixed position */
   top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  width: 100vw; /* Full width */
   display: flex;
   justify-content: center;
-  margin-bottom: 80px;
+  
   z-index: 2;
   
 }
 
-.navbar a {
- 
-  font-size: 1.9vw;
-  font-weight: 250;
+.navbar a { 
+  font-size:2vw;
+  font-weight: 100;
   color: white;
-  padding: 14px 20px;
-  text-decoration: seashell;
+  padding: 12px 1.5vw;
+  text-decoration: none;
   opacity: 1.3;
   
 }
@@ -52,10 +51,10 @@ body {
 /*JUMBOTRON*/
 .jumbotron {
   height: 100vh; /*height to 100% of view height*/
-  width:100vw;
+  width:width;
   background: rgb(48, 41, 41); /*background color to blue*/
   margin-bottom: 0; /*no bottom margin*/
-  
+  padding:5vh;
   display: flex;
   flex-direction: column;
 
@@ -70,7 +69,7 @@ body {
   text-align: center;
   padding-top: 3vw;
   opacity: 0.8;
-  z-index:1;
+ 
 }
 
 .jumbotron-text h1 {
@@ -128,6 +127,7 @@ body {
   display: flex;
   flex-direction: column;
   
+  
 }
 
 .row {
@@ -179,7 +179,7 @@ h2 {
   line-height: 1.5;
   color: black;
   font-weight:300;
-   font-size:3vh;
+   
 }
 
 /*EDUCATION*/
